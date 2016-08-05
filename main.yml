@@ -1,5 +1,5 @@
 ---
-- hosts: localhost
+- hosts: 127.0.0.1
   connection: local
 
   vars_files:
@@ -10,6 +10,8 @@
 
   tasks:
     - include: tasks/ansible-setup.yml
+    - include: tasks/dockutil.yml
+
     #- include: tasks/preferences.yml
 
     # TODO: Use sudo once .osx can be run via root with no user interaction.

@@ -10,8 +10,15 @@
     state: directory
   become: yes
 
+- name: Ensure /usr/local/etc
+  file:
+    path: /usr/local/etc
+    state: directory
+  become: yes
+
 - name: Symlink /usr/local/etc/ansible to /etc/ansible.
   file:
     src: /etc/ansible
     path: /usr/local/etc/ansible
     state: link
+  become: true

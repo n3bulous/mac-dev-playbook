@@ -1,0 +1,39 @@
+---
+configure_sudoers: yes
+
+downloads: ~/.ansible-downloads/
+homebrew_install_path: /usr/local/homebrew
+
+homebrew_installed_packages:
+  - dockutil
+  - mas
+
+homebrew_taps:
+  - caskroom/cask
+  - homebrew/binary
+  - homebrew/dupes
+  - homebrew/versions
+
+dockitems_to_remove:
+  - Mail
+  - System Preferences
+  - Firefox
+  - Google Chrome
+  - Safari
+  - Maps
+  - FaceTime
+  - Pages
+  - Numbers
+  - Keynote
+  - iTunes
+  - App Store
+  - HipChat
+  - Microsoft Excel
+  - Microsoft Outlook 
+  - Microsoft PowerPoint
+  - Microsoft Word
+  - TeamViewer QuickSupport
+  - Notes
+  - Launchpad
+
+

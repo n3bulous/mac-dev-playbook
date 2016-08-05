@@ -1,0 +1,6 @@
+---
+- name: Cleanup Dock
+  shell: dockutil --remove '{{ item }}'
+  ignore_errors: true
+  with_items: '{{ dockitems_to_remove }}'
+
