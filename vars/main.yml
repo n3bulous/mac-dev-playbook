@@ -5,8 +5,64 @@ downloads: ~/.ansible-downloads/
 homebrew_install_path: /usr/local/homebrew
 
 homebrew_installed_packages:
+  - libxml2
+  - libyaml
+  - git
+  - asciidoc
+  - autoconf
+  - aws-elasticbeanstalk
+  - awscli
+  - bash-completion
+  - brew-cask
+  - cheat
+  - colordiff
+  - csshX
+  - ctags
+  - diffutils
   - dockutil
+  - dos2unix
+  - flow
+  - gawk
+  #- gettext
+  - gnu-sed
+  - gnu-tar
+  - go
+  - gpg
+  - graphviz
+  - htop-osx
+  - hub
+  - httpie
+  - iperf
+  - jmeter
+  - jq
+  - knock
+  - legit
+  - llvm
+  - lynx
+  - m-cli
   - mas
+  - mcrypt
+  - multimarkdown
+  - mysql
+  - n
+  - ncftp
+  - npm
+  - openssl
+  - openssh
+  - p7zip
+  - postgresql
+  - shellcheck
+  - the_silver_searcher
+  - tidy-html5
+  - tmux
+  - tree
+  - uncrustify
+  - unrar
+  - v8
+  - vim
+  - wget
+  - xz
+  - zsh
 
 homebrew_taps:
   - caskroom/cask
@@ -36,4 +92,41 @@ dockitems_to_remove:
   - Notes
   - Launchpad
 
+homebrew_cask_apps:
+  - dropbox
+  - 1password
+  - iterm2
+  - amazon-music
+  - alfred
+  - atom
+  - bartender
+  - boom
+  - choosy
+  - crashplan
+  - dash
+  - deeper
+  - docker
+  - electron
+  - evernote
+  - hazel
+  - istat-menus
+  - lightpaper
+  - marked
+  - markdown-service-tools
+  - nvalt
+  - scapple
+  - screenhero
+  - skype
+  - sonos
+  - stay
+  - steam
+  - switchresx
+  - textmate
+  - transmission
+  - typora
+  - vagrant
+  - vagrant-manager
+  - virtualbox
+  - visual-studio-code
+  - sublime-text
 
