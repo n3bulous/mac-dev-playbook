@@ -11,6 +11,7 @@
   tasks:
     - include: tasks/ansible-setup.yml
     - include: tasks/dockutil.yml
+    - include: tasks/ruby.yml
 
     #- include: tasks/preferences.yml
 

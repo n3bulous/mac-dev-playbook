@@ -4,6 +4,8 @@ configure_sudoers: yes
 downloads: ~/.ansible-downloads/
 homebrew_install_path: /usr/local/homebrew
 
+ruby_version: 2.2.5
+
 homebrew_installed_packages:
   - libxml2
   - libyaml
@@ -15,12 +17,14 @@ homebrew_installed_packages:
   - bash-completion
   - brew-cask
   - cheat
+  - chruby
   - colordiff
   - csshX
   - ctags
   - diffutils
   - dockutil
   - dos2unix
+  - doxygen
   - flow
   - gawk
   #- gettext
@@ -51,6 +55,7 @@ homebrew_installed_packages:
   - openssh
   - p7zip
   - postgresql
+  - ruby-install
   - shellcheck
   - the_silver_searcher
   - tidy-html5
@@ -85,7 +90,7 @@ dockitems_to_remove:
   - App Store
   - HipChat
   - Microsoft Excel
-  - Microsoft Outlook 
+  - Microsoft Outlook
   - Microsoft PowerPoint
   - Microsoft Word
   - TeamViewer QuickSupport
@@ -115,7 +120,6 @@ homebrew_cask_apps:
   - markdown-service-tools
   - nvalt
   - scapple
-  - screenhero
   - skype
   - sonos
   - stay
@@ -129,4 +133,4 @@ homebrew_cask_apps:
   - virtualbox
   - visual-studio-code
   - sublime-text
-
+  - xquartz
