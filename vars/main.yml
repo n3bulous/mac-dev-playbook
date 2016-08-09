@@ -55,6 +55,7 @@ homebrew_installed_packages:
   - openssh
   - p7zip
   - postgresql
+  - qt55
   - ruby-install
   - shellcheck
   - the_silver_searcher
@@ -70,6 +71,8 @@ homebrew_installed_packages:
   - zsh
 
 homebrew_taps:
+  - caskroom/versions
+  - homebrew/core
   - caskroom/cask
   - homebrew/binary
   - homebrew/dupes
