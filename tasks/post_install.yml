@@ -1,0 +1,5 @@
+---
+- Name: Run commands at end of ansible run
+  shell: '{{ item }}'
+  ignore_errors: false
+  with_items: '{{ post_install_commands }}'

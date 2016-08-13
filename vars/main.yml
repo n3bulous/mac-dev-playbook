@@ -47,7 +47,7 @@ homebrew_installed_packages:
   - mas
   - mcrypt
   - multimarkdown
-  - mysql
+  - homebrew/versions/mysql56
   - n
   - ncftp
   - npm
@@ -137,3 +137,14 @@ homebrew_cask_apps:
   - visual-studio-code
   - sublime-text
   - xquartz
+  - java
+
+post_install_commands:
+  - brew link --force qt55
+  - >
+      for d in $(ls -d /Library/Java/JavaVirtualMachines/*); do
+        jenv add $d Contents/Home;
+      done &&
+      jenv global $(jenv versions | tail -n1 | awk '{print $2}') &&
+
+  -
