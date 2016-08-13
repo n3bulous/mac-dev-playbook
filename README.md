@@ -1,3 +1,6 @@
+### Credits
+Forked and modified from https://github.com/geerlingguy/mac-dev-playbook
+
 ### Install
 
 - install XCode
