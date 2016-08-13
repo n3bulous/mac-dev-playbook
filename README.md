@@ -10,4 +10,6 @@ Forked and modified from https://github.com/geerlingguy/mac-dev-playbook
 - `ansible-galaxy install -r requirements.yml`
 - `ansible-playbook main.yml -i inventory --ask-sudo-pass`
 
-### JAVA http://kevinallenrodriguez.com/blog/properly-installing-managing-multiple-java-versions-on-os-x/
+### JAVA
+
+http://kevinallenrodriguez.com/blog/properly-installing-managing-multiple-java-versions-on-os-x/
