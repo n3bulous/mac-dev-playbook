@@ -103,7 +103,7 @@ dockitems_to_remove:
 homebrew_cask_apps:
   - dropbox
   - 1password
-  - iterm2
+  - iterm2 # required :)
   - amazon-music
   - alfred
   - atom
@@ -111,9 +111,9 @@ homebrew_cask_apps:
   - boom
   - choosy
   - crashplan
-  - dash
+  - dash # useful
   - deeper
-  - docker
+  - docker # required
   - electron
   - evernote
   - hazel
@@ -131,13 +131,13 @@ homebrew_cask_apps:
   - textmate
   - transmission
   - typora
-  - vagrant
-  - vagrant-manager
-  - virtualbox
+  - vagrant # useful
+  - vagrant-manager # useful
+  - virtualbox # required-ish
   - visual-studio-code
   - sublime-text
   - xquartz
-  - java
+  - java # required
 
 post_install_commands:
   - brew link --force qt55
