@@ -25,6 +25,7 @@ homebrew_installed_packages:
   - dockutil
   - dos2unix
   - doxygen
+  - elasticsearch
   - flow
   - gawk
   #- gettext
@@ -56,6 +57,7 @@ homebrew_installed_packages:
   - p7zip
   - postgresql
   - qt55
+  - redis
   - ruby-install
   - shellcheck
   - the_silver_searcher
